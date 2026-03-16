@@ -1,0 +1,71 @@
+Raw AI Response: {
+  "matchScore": 95,
+  "technicalQuestions": [
+    {
+      "question": "Can you explain how you managed state in your TaskFlow project using React?",
+      "intention": "To assess the candidate's depth of knowledge in React state management patterns and Hooks.",
+      "answer": "I primarily used the Context API for global state management to handle user authentication and task updates across components, while using the useState and useReducer hooks for local component logic to keep the application performant and clean."
+    },
+    {
+      "question": "How do you ensure the REST APIs you build with Node.js are secure and scalable?",
+      "intention": "To evaluate backend development best practices and understanding of security.",
+      "answer": "I implement JWT for authentication, use middleware like Helmet for security headers, and sanitize inputs to prevent injection. For scalability, I focus on writing non-blocking asynchronous code and optimizing MongoDB queries using proper indexing."
+    },
+    {
+      "question": "What is your experience with Docker, and how would you use it in a MERN stack application?",
+      "intention": "To check proficiency in preferred containerization skills mentioned in the job description.",
+      "answer": "I use Docker to containerize the React frontend, Node.js backend, and MongoDB database. This ensures consistency across development and production environments. I typically use Docker Compose to manage the multi-container setup during local development."
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "question": "Describe a time you had to collaborate with a designer or product manager. How did you handle technical constraints?",
+      "intention": "To test teamwork and communication skills as required by the job description.",
+      "answer": "At TechNova, I worked closely with designers. When a specific dashboard design was too resource-intensive for mobile, I suggested a simplified CSS Grid layout that maintained the aesthetic while improving performance, ensuring a win-win for design and engineering."
+    },
+    {
+      "question": "Tell me about a complex bug you encountered in your ShopSmart project and how you resolved it.",
+      "intention": "To assess problem-solving skills and persistence.",
+      "answer": "I encountered a race condition during the payment integration where orders were being duplicated. I implemented database transactions in MongoDB and added unique idempotency keys to the API requests to ensure each payment only triggered one order creation."
+    }
+  ],
+  "skillGaps": [
+    {
+      "skill": "Cloud Services (AWS/Azure/GCP)",
+      "severity": "Medium"
+    },
+    {
+      "skill": "CI/CD Pipeline implementation",
+      "severity": "Low"
+    }
+  ],
+  "preparationPlan": [
+    {
+      "day": 1,
+      "focus": "Backend Deep Dive and Database Optimization",
+      "tasks": [
+        "Review MongoDB indexing strategies",
+        "Practice building a secure middleware for Express.js",
+        "Refine explanations for RESTful architectural constraints"
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "Frontend Excellence and DevOps Basics",
+      "tasks": [
+        "Review React 18 features and performance optimization (memo, useMemo)",
+        "Build a basic CI/CD pipeline using GitHub Actions",
+        "Research common AWS services like S3 and EC2 to address cloud gaps"
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Behavioral Preparation and Mock Interviews",
+      "tasks": [
+        "Prepare STAR method stories for all projects",
+        "Research the company's product and culture",
+        "Perform a mock interview focusing on technical communication"
+      ]
+    }
+  ]
+}
